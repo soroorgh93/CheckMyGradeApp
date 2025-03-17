@@ -30,6 +30,28 @@ This app is an intuitive, onsole-based Python application designed to manage and
     Unittest Framework:   Comprehensive testing of functionalities
 
 
+
+📌Class Structure
+   All classes listed explicitly with attributes and methods clearly defined.
+   Static classes properly labeled (CSVHandler, LoginUser).
+   🎯No Inheritance Relationship (No IS A)
+   🎯Composition Relationship (Has A)
+      ✅ Correctly represented:
+         CheckMyGradeApp → Student, Professor, Course
+   🎯Aggregation Relationship 
+      ✅ Correctly represented:
+         Course → Student (1 → *)
+         Professor → Course (1 → *)
+   🎯Dependency Relationship (Dashed lines)
+      ✅ Correctly represented:
+         CSVHandler dependencies: Student, Professor, Course, Grade, CheckMyGradeApp
+         LoginUser dependency: CheckMyGradeApp
+         Grade dependency: CheckMyGradeApp
+  🎯Multiplicity (Cardinality)
+      ✅ Correctly represented clearly:
+         One-to-One (1:1): LoginUser ↔ Student, LoginUser ↔ Professor
+         One-to-Many (1:*): Course → Students, Professor → Courses
+
   📌 Author
 
     Soroor Ghandali   
