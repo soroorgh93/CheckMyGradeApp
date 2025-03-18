@@ -11,7 +11,7 @@ class TestCheckMyGradeApp(unittest.TestCase):
         students = CSVHandler.load_students()
         for student in students:
             if student['Email address'] == 'student_0@mycsu.edu':
-                student['First name'] = 'Curtis'  # original name from CSV
+                student['First name'] = 'Curtis'  
         CSVHandler.save_students(students)
 
     @patch('builtins.input', side_effect=['DATA300', 'Advanced Math', '4', 'Complex concepts'])
