@@ -9,18 +9,23 @@ This app is an intuitive, onsole-based Python application designed to manage and
 
   🎓 Student Management:
     Add, modify, delete, and view student details, courses, grades, and marks.
+    
   👩‍🏫 Professor Management:
     Create and manage professor profiles and course assignments.
+    
   📖 Course Management:
     Add, update, and delete course information, including course ID, credits, and descriptions.
+    
   🔐 User Authentication:
     Secure login with a simple encryption/decryption method to protect passwords stored in CSV files.
+    
   📊 Statistical Analysis:
     Generate detailed statistics, including average, median, minimum, and maximum marks per course.
+    
   🧪 Robust Unit Testing:
     Comprehensive unit tests ensure correct functionality and reliability.
-  💬 Chatbot:
-     CheckMyGrade Chatbot assist you in managing and exploring your academic records effortlessly. Whether you're a student wanting to check your grades or a professor managing courses and student progress👋:
+    
+  💬 Chatbot: CheckMyGrade Chatbot assist you in managing and exploring your academic records effortlessly. Whether you're a student wanting to check your grades or a professor managing courses and student progress👋:
     
       📋 View and update student records.
       📝 Add or manage courses and professor assignments.
