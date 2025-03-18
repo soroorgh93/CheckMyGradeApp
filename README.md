@@ -39,7 +39,8 @@ This app is an intuitive, onsole-based Python application designed to manage and
    Static classes properly labeled (CSVHandler, LoginUser).
 
    🎯No Inheritance Relationship 
-     ✅(No IS A)
+   
+      ✅(No IS A)
 
    🎯Composition Relationship (Has A)
 
