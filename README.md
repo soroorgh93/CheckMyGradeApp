@@ -6,22 +6,22 @@ This app is an intuitive, onsole-based Python application designed to manage and
 ![UML Class Diagram](UML_Class_Diagram.jpg)
    🚀 Features
 
-    📘Student Management:  
+    📚Student Management:  
         Add, modify, delete, and view student details, courses, grades, and marks.
 
-    📘Professor Management:  
+    📚Professor Management:  
         Create and manage professor profiles and course assignments.
 
-    📘Course Management:  
+    📚Course Management:  
         Add, update, and delete course information, including course ID, credits, and descriptions.
 
-    📘User Authentication:  
+    📚User Authentication:  
         Secure login with a simple encryption/decryption method to protect passwords stored in CSV files.
 
-    📘Statistical Analysis:  
+    📚Statistical Analysis:  
         Generate detailed statistics, including average, median, minimum, and maximum marks per course.
 
-    📘Robust Unit Testing:  
+    📚Robust Unit Testing:  
         Comprehensive unit tests ensure correct functionality and reliability.
 
    🛠️ Technologies Used
