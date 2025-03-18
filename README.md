@@ -26,7 +26,8 @@ This app is an intuitive, onsole-based Python application designed to manage and
     Comprehensive unit tests ensure correct functionality and reliability.
 
   💬 Chatbot:
-    👋 CheckMyGrade Chatbot assist you in managing and exploring your academic records effortlessly. Whether you're a student wanting to check your grades or a professor managing courses and student progress!
+     CheckMyGrade Chatbot assist you in managing and exploring your academic records effortlessly. Whether you're a student wanting to check your grades or a professor managing courses and student progress👋:
+    
       📋 View and update student records.
       📝 Add or manage courses and professor assignments.
       🔒 Securely log in and manage your profile.
