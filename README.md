@@ -4,31 +4,40 @@ This app is an intuitive, onsole-based Python application designed to manage and
    🖥️ UML Class Diagram:
    
 ![UML Class Diagram](UML_Class_Diagram.jpg)
-   🚀 Features
 
-    📚Student Management:  
-        Add, modify, delete, and view student details, courses, grades, and marks.
+🚀 Features
 
-    📚Professor Management:  
-        Create and manage professor profiles and course assignments.
+  🎓 Student Management:
+    Add, modify, delete, and view student details, courses, grades, and marks.
 
-    📚Course Management:  
-        Add, update, and delete course information, including course ID, credits, and descriptions.
+  👩‍🏫 Professor Management:
+    Create and manage professor profiles and course assignments.
 
-    📚User Authentication:  
-        Secure login with a simple encryption/decryption method to protect passwords stored in CSV files.
+  📖 Course Management:
+    Add, update, and delete course information, including course ID, credits, and descriptions.
 
-    📚Statistical Analysis:  
-        Generate detailed statistics, including average, median, minimum, and maximum marks per course.
+  🔐 User Authentication:
+    Secure login with a simple encryption/decryption method to protect passwords stored in CSV files.
 
-    📚Robust Unit Testing:  
-        Comprehensive unit tests ensure correct functionality and reliability.
+  📊 Statistical Analysis:
+    Generate detailed statistics, including average, median, minimum, and maximum marks per course.
+
+  🧪 Robust Unit Testing:
+    Comprehensive unit tests ensure correct functionality and reliability.
+
+  💬 Chatbot:
+    👋 CheckMyGrade Chatbot assist you in managing and exploring your academic records effortlessly. Whether you're a student wanting to check your grades or a professor managing courses and student progress!
+
+      📋 View and update student records.
+      📝 Add or manage courses and professor assignments.
+      🔒 Securely log in and manage your profile.
+
 
    🛠️ Technologies Used
 
     Python 3.x  
     CSV Files:   Persistent data storage
-    Encryption/Decryption:   Simple reversible method for password protection
+    Encryption/Decryption:  SHA256 + Simple reversible method for password protection
     Unittest Framework:   Comprehensive testing of functionalities
 
 
