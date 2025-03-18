@@ -40,11 +40,11 @@ This app is an intuitive, onsole-based Python application designed to manage and
 
    🎯No Inheritance Relationship 
    
-      ✅(No IS A)
+        ✅(No IS A)
 
    🎯Composition Relationship (Has A)
 
-      ✅CheckMyGradeApp → Student, Professor, Course
+        ✅CheckMyGradeApp → Student, Professor, Course
 
 
    🎯Aggregation Relationship 
