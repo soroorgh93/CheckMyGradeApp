@@ -276,7 +276,7 @@ class Professor:
 
             elif choice == '2':
                 self.app.course.add_new_course()
-                # Auto-assign new course to professor
+                
                 new_courses = CSVHandler.load_courses()
                 if new_courses:
                     prof['Course.id'] = new_courses[-1]['Course_id']
@@ -397,12 +397,11 @@ class LoginUser:
         login_data.append({
             'User id': email,
             'Password': LoginUser.encrypt_password(password),
-            'password_without_hashing': password,  # ADD THIS LINE
+            'password_without_hashing': password,  
             'Role': role
         })
         CSVHandler.save_login(login_data)
         
-        # Add to appropriate CSV based on role
         if role == 'student':
             students = CSVHandler.load_students()
             students.append({
@@ -434,7 +433,6 @@ class LoginUser:
         
         if user:
             password = input("Password: ")
-            # Verify using both columns
             input_hash = LoginUser.encrypt_password(password)
             stored_hash = user['Password']
             plaintext = user['password_without_hashing']
@@ -596,7 +594,7 @@ class CheckMyGradeApp:
                 print("Invalid choice!")
     def add_new_course_flow(self):
         self.course.add_new_course()
-        # Automatically offer to assign the new course
+        
         new_courses = CSVHandler.load_courses()
         if new_courses:
             new_course_id = new_courses[-1]['Course_id']
@@ -618,13 +616,13 @@ class CheckMyGradeApp:
         Grade.get_course_statistics(prof['Course.id'])            
 
     def delete_student(self, professor_email):
-        # Verify professor's course
+        
         professors = CSVHandler.load_professors()
         prof = next((p for p in professors if p['Professor_id'] == professor_email), None)
         if not prof or not prof['Course.id']:
             print("You must be assigned to a course first!")
             return
-        # Get student email
+        
         student_email = input("Enter student email to delete: ")
         
         # Verify student belongs to professor's course
@@ -634,7 +632,7 @@ class CheckMyGradeApp:
         
         if student:
             self.student.delete_new_student(student_email)
-            # Also remove from login.csv
+           
             login_data = CSVHandler.load_login()
             login_data = [u for u in login_data if u['User id'] != student_email]
             CSVHandler.save_login(login_data)
