@@ -38,7 +38,8 @@ This app is an intuitive, onsole-based Python application designed to manage and
    All classes listed explicitly with attributes and methods clearly defined.
    Static classes properly labeled (CSVHandler, LoginUser).
 
-   🎯No Inheritance Relationship (No IS A)
+   🎯No Inheritance Relationship 
+     ✅(No IS A)
 
    🎯Composition Relationship (Has A)
 
