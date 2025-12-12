@@ -76,6 +76,6 @@ Class Structure
       
 
    Author
-    Soroor Ghandali   
+    Soroor    
 © CheckMyGrade 
  
